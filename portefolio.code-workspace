@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Apple New"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portefolio"
+	}
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Kevin</title>
+    <link rel=icon href="/assets/image/logo.png">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="button">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MobileFrontend_icon_toc_contents-ltr.svg/2048px-MobileFrontend_icon_toc_contents-ltr.svg.png"
+                    style="margin-left: -4px; height: 25px;"></img>
+            </div>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">A Propos</a></li>
+                <li><a href="#projet">Projets</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <style>
+        body {
+            background-image: url("assets/image/background.jpg");
+            background-size: cover;
+        }
+
+        .parallax {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('assets/image/back.png') no-repeat;
+            width: 100%;
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        @media screen and (max-width: 1440px) {
+            .parallax {
+                width: 101%;
+            }
+        }
+
+        @media screen and (max-width: 1366px) {
+            .parallax {
+                width: 102%;
+            }
+        }
+
+        @media screen and (max-width: 1280px) {
+            .parallax {
+                width: 103%;
+                height: 450px;
+            }
+        }
+
+        @media screen and (max-width: 1175px) {
+            .parallax {
+                width: 108%;
+                height: 400px;
+            }
+        }
+
+        @media screen and (max-width: 900px) {
+            .parallax {
+                width: 108%;
+                height: 350px;
+            }
+        }
+
+        @media screen and (max-width: 769px) {
+            .parallax {
+                width: 108%;
+                height: 300px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .parallax {
+                width: 150%;
+                height: 230px;
+            }
+        }
+
+        @media screen and (max-width: 1175px) {
+            footer {
+                width: 115%;
+            }
+        }
+
+        @media screen and (max-width: 1366px) {
+            footer {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 769px) {
+            footer {
+                width: 115%;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            footer {
+                width: 145%;
+            }
+        }
+    </style>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <section id="home" class="parallax">
+        <h2 id="text">Kevin PARVIN</h2>
+        <h3 id="textdesc">Etudiant et Developpeur Informatique</h3>
+        <img src="/assets/image/kevin.png" id="profil"></img>
+        <img src="assets/image/back-front.png" id="back-front">
+        <img src="assets/image/leftbird.png" id="left-bird">
+        <img src="assets/image/rightbird.png" id="right-bird">
+        <img src="assets/image/leftcloud.png" id="left-cloud">
+        <img src="assets/image/rightcloud.png" id="right-cloud">
+    </section>
+    </div>
+    <div id="scrolldown" class="scroll">
+        <a href="#about"><span></span>Scroll</a>
+    </div>
+    <div class="sec">
+        <h2 id="about">A Propos</h2>
+        <br>
+        <img src="/assets/image/ordi.png"></img>
+        <p class="about">
+            Bienvenue sur mon portfolio ! Je suis Kevin, étudiant en informatique de 18 ans passionné de développement
+            de jeux vidéo et de sites web. Je possède une solide expérience en développement de serveurs Fivem et
+            Garry's
+            Mod en utilisant le langage de programmation LUA. J'ai également des compétences en HTML et CSS pour la
+            création de sites web. Je suis constamment en train de chercher de nouveaux défis pour améliorer mes
+            compétences et mes connaissances en informatique. Je suis motivé pour travailler sur des projets innovants
+            et collaboratifs pour aider les clients à atteindre leurs objectifs. Mon objectif est de fournir un travail
+            de qualité, en respectant les délais et en offrant un service personnalisé à chaque client. Je suis prêt à
+            discuter de vos projets et de vos besoins en informatique pour trouver la meilleure solution pour vous.
+            N'hésitez pas à me contacter pour en savoir plus sur moi et sur mon travail. Je suis impatient de collaborer
+            avec vous pour réaliser des projets passionnants ensemble !</p>
+    </div>
+    <br>
+    <div>
+        <h2 id="projet" class="projet">Projets</h2>
+        <br>
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide"><img src="assets/image/groupie.png"></div>
+                <div class="slide" href="hangman.html"><img src="assets/image/hangman.png"></div>
+                <div class="slide"><img src="assets/image/hangmanweb.png"></div>
+            </div>
+        </section>
+    </div>
+    <div class="exp">
+        <h2 id="experiences">Experiences</h2>
+        <br>
+        <img src="/assets/image/computer.png" class="computer"></img>
+        <p class="experiences">
+            Avec une expérience professionnelle j'ai déjà développé plusieurs serveurs Fivem et Garry's Mod en mode
+            DarkRP, qui ont nécessité une maîtrise approfondie du langage de script Lua pour réussir.
+            J'ai également travaillé avec PHP pour la création de base de données pour les serveurs Fivem, ainsi qu'avec
+            HTML et CSS pour la conception d'interfaces utilisateur et la mise en forme des pages web.
+            En tant que développeur, j'ai toujours cherché à améliorer mes compétences en matière de programmation, de
+            conception et de résolution de problèmes.
+            En somme, mon expérience professionnelle m'a permis de développer une expertise avec quelque bases dans le
+            développement de jeux vidéo et dans la maîtrise des langages de script tels que Lua, PHP, HTML et CSS.
+            Je suis toujours prêt à relever de nouveaux défis et à explorer de nouvelles technologies pour trouver des
+            solutions innovantes aux problèmes les plus complexes.
+        </p>
+    </div>
+    <br>
+    <style>
+        footer {
+            background-image: url("assets/image/back.png");
+            background-position: 100%;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    <footer>
+        <p style="text-decoration-line: underline; ">Mentions légales</p>
+        <a style="pointer-events: auto;"href="https://www.instagram.com/kev1.par20/" target="_blank"><img class="socialmedia" src="assets/image/facebook.png"/></a>
+        <a style="pointer-events: auto;"href="https://www.instagram.com/kev1.par20/" target="_blank"><img class="socialmedia" src="assets/image/insta.png"/></a>
+        <a style="pointer-events: auto;"href="https://twitter.com/Kevinparvin4" target="_blank"><img class="socialmedia" src="assets/image/twitter.png"/></a>
+        <p>© PARVIN Kevin - YNOV PARIS CAMPUS</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
